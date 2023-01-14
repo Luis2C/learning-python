@@ -4,7 +4,11 @@
 #
 # Considere: US$ 1,00 = R$ 3,27
 
-v = float(input('Quantidade de dinheiro da carteira (R$): '))
-d = v / 3.27
+real = float(input('Quanto dinheiro você tem na carteira? R$ '))
+dolar = real / 3.27
 
-print('Consegue comprar US$ {:.2f}!'.format(d))
+# Plus ++ ( fazer para )
+# euro
+# ien
+
+print('Com R$ {:.2f} você pode comprar US$ {:.2f}!'.format(real, dolar))
