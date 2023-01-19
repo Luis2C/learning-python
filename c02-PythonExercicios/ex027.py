@@ -9,6 +9,8 @@
 
 nome = str(input('Digite seu nome completo: ')).strip()
 divide = nome.split()
+
+#print(divide)
 print('Muito prazer em te conhecer!')
 print('Seu primeiro nome é {}'.format(divide[0]))
 print('Seu último nome é {}'.format(divide[len(divide)-1]))
