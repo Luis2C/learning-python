@@ -8,11 +8,11 @@
 # A multa vai custar R$7,00 por cada Km acima do limite.
 #
 
-veloc = float(input('Qual a velocidade atual do carro? '))
+veloc = float(input('\033[36mQual a velocidade atual do carro? '))
 
 if veloc > 80:
-    print('MULTADO! Você excedeu o limite permitido que é de 80Km/h')
+    print('\033[1;31mMULTADO! Você excedeu o limite permitido que é de 80Km/h')
     multa = (veloc - 80) * 7
     print('Você deve pagar uma multa de R${:.2f}'.format(multa))
 
-print('Tenha um bom dia! Dirija com segurança!')
+print('\033[1;34mTenha um bom dia! Dirija com segurança!')

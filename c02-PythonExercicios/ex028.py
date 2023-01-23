@@ -12,16 +12,16 @@ from time import sleep
 comp = randint(0, 5)  # computador seleciona um número inteiro entre 0 e 5
 # print('Pensei no número {}'.format(comp))
 
-print('-=-' * 20)
-print('Vou pensar em um número entre 0 e 5. Tente adivinhar...')
-print('-=-' * 20)
+print('\033[1;34m-=-' * 20)
+print('\033[33mVou pensar em um número entre 0 e 5. Tente adivinhar...')
+print('\033[1;34m-=-' * 20)
 
-jog = int(input('Em que número eu pensei? '))  # jogador tenta adivinhar
+jog = int(input('\033[33mEm que número eu pensei? '))  # jogador tenta adivinhar
 
-print('PROCESSANDO...')
+print('\033[35mPROCESSANDO...\033[m')
 sleep(3)
 
 if jog == comp:
-    print('PARABÉNS! Você conseguiu me vencer!')
+    print('\033[1;32mPARABÉNS! Você conseguiu me vencer!')
 else:
-    print('GANHEI! Eu pensei no número {} e não no {}!'.format(comp, jog))
+    print('\033[31mGANHEI! Eu pensei no número {} e não no {}!'.format(comp, jog))
