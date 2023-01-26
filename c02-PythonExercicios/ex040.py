@@ -13,6 +13,14 @@ media = (nota1 + nota2) / 2
 
 print('Tirando {:.1f} e {:.1f}, a média do aluno é {:.1f}'.format(nota1, nota2, media))
 
+# if media >= 5 and media < 7:
+# if 7 > media >= 5:
+#     print('O aluno está em RECUPERAÇÃO.')
+# elif media < 5:
+#     print('O aluno está REPROVADO.')
+# else:
+#     print('O aluno está APROVADO.')
+
 if media < 5:
     print('O aluno está REPROVADO.')
 elif media >= 7:
