@@ -1,6 +1,6 @@
 # Desafio 009 ( Aula 07 )
 #
-# Faça um programa que leia um número inteiro qualquer e mostre na tela a sua taboada.
+# Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada.
 
 n = int(input('Digite um número para ver a tabuada: '))
 
